@@ -65,6 +65,6 @@ def main() :
         ContentData = read_csv(PathFileContentVersion)
         data_csv = analisys_csv(AccountData,ContentData)
         csv_converter('Accounts.csv', data_csv)
-        print('\n------- Finish Script -------')
+        print('\n------- Finish Script -------\n')
 
 main()
